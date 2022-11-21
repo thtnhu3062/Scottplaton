@@ -336,3 +336,7 @@ a.slide__text-link:hover { text-decoration:none; color:#FFF;}
   -webkit-transform: rotateX(0);
           transform: rotateX(0);
 }
+.navbar{
+  background-image: url(/img/Header.jpg);
+  background-image: no repeat;
+}
