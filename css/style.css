@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 section {
   width: 100%;
   height: 100vh;
@@ -162,6 +165,46 @@ section {
 a:hover {
   background-color: #EFA52C;
   border-radius: 30px;
+}
+
+.class1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 100px;
+  padding-left: 100px;
+  
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+ 
+}
+.card img{
+  height: 400px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+.img1 {
+  height: 400px;
+}
+table tr td {
+  padding-left: 15px; padding-right: 15px;
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
