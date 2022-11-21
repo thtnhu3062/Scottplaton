@@ -150,10 +150,10 @@ svg {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-3.jpg");
+  background-image: url("/img/roasted-maple-balsamic-acorn-squash-today-122420-tease.webp");
 }
 .slide:nth-child(1) .slide__overlay-path {
-  fill: #e99c7e;
+  fill: none;
 }
 @media (max-width: 991px) {
   .slide:nth-child(1) .slide__text {
@@ -165,10 +165,10 @@ svg {
 }
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-2.jpg");
+  background-image: url("/img/CaMackerelnuonggiam.jpg");
 }
 .slide:nth-child(2) .slide__overlay-path {
-  fill: #e1ccae;
+  fill: none;
 }
 @media (max-width: 991px) {
   .slide:nth-child(2) .slide__text {
@@ -180,10 +180,10 @@ svg {
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-1.jpg");
+  background-image: url("/img/beef-stew-te-main-211020.webp");
 }
 .slide:nth-child(3) .slide__overlay-path {
-  fill: #adc5cd;
+  fill: none;
 }
 @media (max-width: 991px) {
   .slide:nth-child(3) .slide__text {
@@ -195,10 +195,10 @@ svg {
 }
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-4.jpg");
+  background-image: url("/img/heiskellpiemain.webp");
 }
 .slide:nth-child(4) .slide__overlay-path {
-  fill: #cbc6c3;
+  fill: none;
 }
 @media (max-width: 991px) {
   .slide:nth-child(4) .slide__text {
@@ -240,7 +240,7 @@ svg {
   width: 25%;
   bottom: 15%;
   left: 12%;
-  color: #fff;
+  color: black;
   -webkit-transition: opacity 0.5s 0.8s, -webkit-transform 0.5s 0.8s;
   transition: opacity 0.5s 0.8s, -webkit-transform 0.5s 0.8s;
   transition: transform 0.5s 0.8s, opacity 0.5s 0.8s;

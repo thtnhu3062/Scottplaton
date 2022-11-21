@@ -25,14 +25,14 @@
    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/css/style.css">
+<style>
+
+</style>
 </head>
 <body>
-  
   <div class"margin"></div>
 <!-------- don't use this html this only for margin top remove this ---------------------->
-
-
 <div class="slider-container">
   <div class="slider-control left inactive"></div>
   <div class="slider-control right"></div>
@@ -45,8 +45,8 @@
           <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
         </svg>
         <div class="slide__text">
-          <h2 class="slide__text-heading">Project name 1</h2>
-          <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+          <h2 class="slide__text-heading"style="color:white">Project name 1</h2>
+          <p class="slide__text-desc"style="color:white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
           <a href="http://hkmbhutto.wix.com/abdulrasheed"
           class="slide__text-link">Project link</a>
         </div>
@@ -87,8 +87,8 @@
           <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
         </svg>
         <div class="slide__text">
-          <h2 class="slide__text-heading">Project name 4</h2>
-          <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+          <h2 class="slide__text-heading"style="color:red">Project name 4</h2>
+          <p class="slide__text-desc"style="color:red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
           <a href="http://hkmbhutto.wix.com/abdulrasheed"
           class="slide__text-link">Project link</a>
         </div>
@@ -97,10 +97,7 @@
   </div>
 </div>
 <script>
-  
-
 $(document).ready(function() {
-  
   var $slider = $(".slider"),
       $slideBGs = $(".slide__bg"),
       diff = 0,
@@ -111,7 +108,6 @@ $(document).ready(function() {
       autoSlideTimeout,
       autoSlideDelay = 6000,
       $pagination = $(".slider-pagi");
-  
   function createBullets() {
     for (var i = 0; i < numOfSlides+1; i++) {
       var $li = $("<li class='slider-pagi__elem'></li>");
@@ -120,15 +116,12 @@ $(document).ready(function() {
       $pagination.append($li);
     }
   };
-  
   createBullets();
-  
   function manageControls() {
     $(".slider-control").removeClass("inactive");
     if (!curSlide) $(".slider-control.left").addClass("inactive");
     if (curSlide === numOfSlides) $(".slider-control.right").addClass("inactive");
   };
-  
   function autoSlide() {
     autoSlideTimeout = setTimeout(function() {
       curSlide++;
@@ -136,9 +129,7 @@ $(document).ready(function() {
       changeSlides();
     }, autoSlideDelay);
   };
-  
   autoSlide();
-  
   function changeSlides(instant) {
     if (!instant) {
       animating = true;
@@ -160,19 +151,16 @@ $(document).ready(function() {
     diff = 0;
     autoSlide();
   }
-
   function navigateLeft() {
     if (animating) return;
     if (curSlide > 0) curSlide--;
     changeSlides();
   }
-
   function navigateRight() {
     if (animating) return;
     if (curSlide < numOfSlides) curSlide++;
     changeSlides();
   }
-
   $(document).on("mousedown touchstart", ".slider", function(e) {
     if (animating) return;
     window.clearTimeout(autoSlideTimeout);
