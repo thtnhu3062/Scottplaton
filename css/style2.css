@@ -1,82 +1,33 @@
-.class1 {
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 100px;
-  padding-left: 100px;
+.class30 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  tr td h3 a {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+  }
   
-}
-
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 300px;
-  height: 400px;
-  text-align: center;
- 
-}
-.card img{
-  height: 400px;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container1 {
-  padding: 2px 16px;
-  font-size: 22px;
-  font-weight: 20px;
-  color: red;
-}
-.img1 {
-  height: 400px;
-}
-table tr td {
-  padding-left: 15px; padding-right: 15px;
-}
-body {
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.class22{
-  background-color: #EFA52C;
-  height:600%;
+  .hover01 figure img {
+    -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+    width: 250px;
+    height: 150px;
+    
+  }
+  .hover01 figure:hover img {
+    -webkit-transform: scale(1.3);
+  transform: scale(1.3);
   
-
-}
-.bookends {
-  position: relative;
-  border-width: 5px;
-  border-color: hsl(0, 0%, 50%) transparent;
-  height: 11px;
-  border-style: double;
-  width: 20%;
-  margin: auto;
+  border-style: solid;
   
-}
-.bookends:before,
-.bookends:after {
-  position: absolute;
-  bottom: -3.536px;
-  width: 7.071px;
-  height: 7.071px;
-  display: block;
-  border-width: 0 7.071px 7.071px 0;
-  border-color: black;
-  border-style: double;
-  box-sizing: border-box;
-}
-.bookends:before {
-  transform: translateZ(0) rotate(-45deg);
-  left: -21px;
-}
-.bookends:after {
-  transform: translateZ(0) rotate(135deg);
-  right: -21px;
-}
-.container3 {
-  color: red;
-}
+  }
+  .container1 {
+    color: red;
+    font-size: 20px;
+  }
