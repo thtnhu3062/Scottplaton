@@ -1,0 +1,43 @@
+#myVideo {
+
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: 700px;
+    margin-top: -400px;
+
+}
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  .class22{
+    z-index: 1;
+  }
+  #id111 {
+    font-size: 196%;
+    color: #EFA52C;
+    font-family: "Brush Script MT", cursive;
+
+  }
