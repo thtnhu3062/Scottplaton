@@ -4,12 +4,7 @@
     margin-right: auto;
     margin-bottom:950px;
   }
-  .class307 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:1150px;
-  }
+  
   .class303 {
     text-align: center;
     margin-left: auto;
@@ -23,30 +18,8 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .hover01 figure img {
-    -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-    width: 250px;
-    height: 150px;
   
-  
-    
-  }
-  .hover01 figure:hover img {
-    -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-  
-  border-style: solid;
-  
-  }
-  
-  .container1 {
-    color: red;
-    font-size: 20px;
-  }
-
+ 
 
 
   .section {
