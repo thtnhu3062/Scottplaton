@@ -11,6 +11,9 @@
   margin:10px 0;
   border: .5px solid #ddd;
 }
+.sd{
+  font-size: 15px;
+}
 .star-rating {
    margin: 25px 0 0px;
   font-size: 0;
