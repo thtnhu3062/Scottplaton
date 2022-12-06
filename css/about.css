@@ -2,14 +2,18 @@
 
     right: 0;
     bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    width: 700px;
-    margin-top: -320px;
+    margin-bottom: -200px;
+   
 
+   
+   
+   
 
 }
-  
+
+  .mkl{
+    z-index: 14;
+  }
   .content {
     position: fixed;
     bottom: 0;
@@ -33,15 +37,11 @@
     background: #ddd;
     color: black;
   }
-  .class22{
-    z-index: 1;
-  }
+  
   #id111 {
     font-size: 196%;
     color: #EFA52C;
     font-family: "Brush Script MT", cursive;
 
   }
-  .rte{
-    margin-top: 00px;
-  }
+  
