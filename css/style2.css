@@ -1066,14 +1066,25 @@
   
   .product-text {
     height: 300px;
-    width: 427px;
-    font-size: 100px;
+    width: 527px;
+    font-weight: 100px;
+  }
+  .mhn {
+    height: 300px;
+    width: 527px;
+    font-weight: 100px;
   }
   
   .product-text h1 {
     margin: 0 0 0 38px;
     padding-top: 52px;
-    font-size: 34px;
+    
+    color: #474747;
+  }
+  .mhn h1 {
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    margin-right: 250px;
     color: #474747;
   }
   
@@ -1101,6 +1112,30 @@
     font-size: 15px;
     font-weight: lighter;
     overflow: hidden;
+    margin-right: 150px;
+  }
+   
+  .mhn h2 {
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+    margin-right: 150px;
+  }
+  
+  .mhn p {
+    height: 125px;
+    margin: 0 0 0 38px;
+    font-family: 'Playfair Display', serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+    margin-right: 250px;
   }
   
   .product-price-btn {
@@ -1122,12 +1157,7 @@
     color: #474747;
   }
   
-  span {
-    display: inline-block;
-    height: 50px;
-    font-family: 'Suranna', serif;
-    font-size: 34px;
-  }
+  
   
   .product-price-btn button {
     float: right;
@@ -1144,11 +1174,14 @@
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #ffffff;
-    background-color: #9cebd5;
+    background-color: red;
     cursor: pointer;
     outline: none;
   }
   
   .product-price-btn button:hover {
-    background-color: #79b0a1;
+    background-color: pink;
+  }
+  .bvc{
+    font-weight: 500px;
   }
