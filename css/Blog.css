@@ -1,0 +1,40 @@
+body{
+    padding:0px;
+    margin:0px;
+  }
+  header {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(/img/Blog.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .tieu_de {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    
+  }
+  h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 70px;
+    white-space: nowrap;
+  }
+  h5{
+    font-size: 50px;
+  }
+  img{
+    width: 400px;
+    height: 300px;
+  }
+  #big{
+    width: 800px; height: 600px;
+  }
