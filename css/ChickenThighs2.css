@@ -152,8 +152,7 @@ img {
     letter-spacing: 1.3px;
     color: #fff;
     background-color: #ff3f40;
-    box-shadow: 2px 2px 25px -7px #4c4c4c;
-    cursor: pointer;
+    box-shadow: 2px 2px 25px -7px #4c4c4c;  
 }
 .buy--btn:active {
     transform: scale(0.97);
