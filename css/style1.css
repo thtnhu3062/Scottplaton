@@ -450,7 +450,7 @@ button {
   font-weight: 300;
   background: var(--button-color);
   color: var(--bg-color);
-  
+ 
   border: none;
   border-radius: 2px;
   outline: none;
