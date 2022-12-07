@@ -11,12 +11,11 @@ Student1414246  Thân Tâm Như
 Student1414366  Phạm Ngọc Hải
 ============================
 
-eProject documentation at https://github.com/lnnhi1310/Kitchen-Appliances/tree/main/documentary
+eProject documentation at https://github.com/thtnhu3062/Scottplaton/tree/main/document
 
 ============================
 
-eProject published at https://lnnhi1310.github.io/Kitchen-Appliances/index.html
-
+eProject published at https://thtnhu3062.github.io/Scottplaton/
 ============================
 
 Thank you for spending your time to look at our work.
