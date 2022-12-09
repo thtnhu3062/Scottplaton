@@ -74,12 +74,10 @@ body {
 }
 
 .background {
-  background-image: url(/img/nhahang1.webp); 
+  background-image: url(/img/nhahang1.webp) ;
   font-size: 12px;
-<<<<<<< HEAD
+
   margin-bottom: -42px;
-=======
-  
 >>>>>>> 95673683b109781222941f8404ba4482d1b15686
 }
 
