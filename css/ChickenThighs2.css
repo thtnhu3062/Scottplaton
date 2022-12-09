@@ -80,7 +80,7 @@ img {
     height: 55px;
     padding: 7px;
     border: 1px solid #a6a6a6;
-    border-radius: 3px;
+    border-radius: 3px; 
 }
 /* ----- Informations Section ----- */
 .product__info {
@@ -112,7 +112,7 @@ img {
 .variant h3 {
     margin-bottom: 1.1em;
 }
-.variant li {
+ul li.variant li {
     float: left;
     width: 35px;
     height: 35px;
@@ -141,7 +141,7 @@ img {
 }
 .description li {
     text-indent: -0.6em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5em; font-size: 13px;
 }
 .buy--btn {
     padding: 1.5em 3.1em;

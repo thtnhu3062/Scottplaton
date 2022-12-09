@@ -7,7 +7,7 @@
    
 }
 .mjy{
-    background-color: rgb(216, 159, 159);
+    background-color: #EFA52C;
     background-repeat: no-repeat;
 }
 .box {
@@ -19,7 +19,7 @@
     line-height: 0;
 }
 .box > img {
-    width: 200%;
+    width: 200%; 
     height: calc(100% - 10vh);
     object-fit: cover;
     transition: 0.5s;
