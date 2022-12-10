@@ -1,40 +1,70 @@
-body{
-    padding:0px;
-    margin:0px;
-  }
-  header {
-    background: 
-      linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url(/img/Blog.jpg);
-    background-size: cover;
-    height: 100vh;
-  }
+.df3{
+  background-image: url(/img/tSimple\,\ modern\ &\ minimalist\ wedding\ ideas\ _\ Northern\ California\ Wedding\ Inspiration\ _\ Gallery\ _\ Item\ 7.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
   
-  .tieu_de {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    
-  }
-  h1 {
-    text-transform: uppercase;
-    margin: 0;
-    font-size: 70px;
-    white-space: nowrap;
-  }
-  h5{
-    font-size: 50px;
-  }
-  img{
-    width: 400px;
-    height: 300px;
-  }
-  #big{
-    width: 800px; height: 600px;
-  }
+
+}
+.hgr{
+  position: absolute;
+  
+}
+.dfr{
+ font-size: 70px;
+  margin-left: 600px;
+  margin-top: 200px;
+  color: #EFA52C;
+font-family: Lucida Handwriting;
+}
+.myt{
+  margin-right: 400px;
+  margin-left: -70px;
+  font-family: 'Suranna', serif;
+  color: black;
+}
+.blog_main {margin-top: 85px;}
+.blog_main .span {font-size: 17px; line-height: 20px; color: #2d2d2d;}
+.our_two_box {box-shadow: #ddd 0px 0px 10px 0px; margin-bottom: 90px;}
+.our_text_box {padding: 1px 30px 1px 1px;}
+.our_img figure {margin: 0;}
+.our_img figure img {width: 100%;}
+.awesome {padding-bottom:40px; font-size: 26px; line-height: 38px; color:#333334; } 
+.our_text_box p {padding-bottom: 50px; color: #3c3c3c; display: inline-block; } 
+.flot_left1 {float: left; padding: 0;} 
+ul.like {float: right;}
+ul.like li {display: inline-block;}
+ul.like li a {display: inline-block; color: #3c3c3c;}
+ul.like li img {padding: 0px 10px 0px 40px;}
+.titlepage {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.titlepage h2 {
+  font-size: 40px;
+  color: #3e3e3e;
+  line-height: 57px;
+  font-weight: bold;
+  padding: 0;
+  padding-bottom: 20px;
+}
+.blog_main{
+  margin-top: -10px;
+}
+.position_box {position: absolute; bottom: 0; padding: 0px 20px 20px 20px;}
+.withi_color {color: #fff;}
+.position_box p {color: #fff;} 
+ul.withi_color li a {color: #fff;}
+ul.withi_color {float: left; padding-left: 40px;}
+.he_img{
+  height: 700px;
+}
+.kkkk{
+  margin-top: -50px;
+}
+.flot_left1{
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffca75;
+}

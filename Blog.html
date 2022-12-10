@@ -4,46 +4,268 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="css/Blog.css">
+    <link rel="stylesheet" href="css/style1.css">
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/vechungtoi.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+<script>!function(e){"undefined"==typeof module?this.charming=e:module.exports=e}(function(e,n){"use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});
+</script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="tieu_de">
-          <h1>BLOG PAGE</h1>
-          <h4>Everything</h4>
-        </div>
-    </header>
-    <div>
-        <table border="1">
-            <tr>
-                <td rowspan="3">
-                    <img src="img/Blog1.jpg" id="big"> 
-                <td>
-                    <h3>What happens when you eat salad everyday?</h3>
-                    <p>Just like any other food, salads have pros and cons that you need to consider. <a href="/">See more...</a></p>
-                </td>
+    <nav class="navbar navbar-expand-lg navbar-dark col-s-1 "style="background-color:black">
+        <a class="navbar-brand" href="#"><span id="id11">Vinegar</span><br><span id="id2">Food Restaurant</span> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active"id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Meals</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="man.html">SAVORY FOOD.</a>
+                <a class="dropdown-item" href="chay.html">VEGETIRAIN</a>
+                <a class="dropdown-item" href="cake.html">SNACK</a>
+                <a class="dropdown-item" href="drink.html">DRINK</a>
+                
              
-                </td>
-                <td>
-                    <img src="img/Blog2.png">
-                </td>
-                <td>
-                    <h3>How to Write a Restaurant Business Plan</h3>
-                    <p>No matter where you're at in your restaurant ownership journey, a business plan will be your north star. <a href="/">See more...</a></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="img/Blog3.webp">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="img/Blog4.jpg">
-                </td>
-            </tr>
-        </table>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li><li class="nav-item">
+              <a class="nav-link" href="Awards.html">Awards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cattering</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recipe of the month </a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Feedback.html">Feedback</a>
+            </li>
+          </ul>
+         
+          </div>
+        </div>
+      </nav>
+    
+    <div class="df3">
+<div class="hgr">
+    <h1 class="dfr">BLOG<br>
+    <span class="myt"> News Events</span></h1>
+    
+</div>
     </div>
+    <div class="blog_main">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="titlepage">
+                    <h2>News Blogs</h2>
+                    <span>The latest food news will be constantly updated by us </span>
+                 </div>
+              </div>
+           </div>
+           <!-- fist section -->
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="our_two_box">
+                    <div class="row d_flex">
+                      
+                          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                          <div class="our_img">
+                             <figure><img src="img/blog1-5095-1639713525.jpg" alt="#"/></figure>
+                          </div>
+                       </div>
+                       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                          <div class="our_text_box">
+                             <h3 class="awesome pa_wi">Shun Yi - a new breeze of Cantonese cuisine in Saigon</h3>
+                             <p>The dishes at Shun Yi restaurant are placed in stone bowls, keeping the flavor - taste - color of traditional Cantonese cuisine. </p>
+                             <div class="post_box padding_bottom1">
+                                <h4 class="flot_left1"><a href="https://vnexpress.net/shun-yi-lan-gio-moi-cua-am-thuc-quang-dong-tai-sai-gon-4403539.html">View More</a> </h4>
+                                <ul class="like">
+                                   <li><a href="#"><img src="img/like.png" alt="#"/>Like</a></li>
+                                    <li><a href="#"><img src="img/comm.png" alt="#"/>Comment</a></li>
+                                </ul>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+   <!-- end fist section -->
+   <!-- secend section -->
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="our_two_box">
+                    <div class="row">
+                       <div class="col-md-12">
+                          <div class="our_img">
+                             <figure><img class="he_img" src="img/our_img2.jpg" alt="#"/></figure>
+                         
+                        
+                          <div class="our_text_box position_box">
+                             <h3 class="awesome withi_color" >This week is incelebrity homes love food</h3>
+                             <p class="hiuouh">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repea</p>
+                             <div class="post_box">
+                                <h4 class="flot_left1 withi_color"><a href="https://vnexpress.net/bien-tau-tinh-te-trong-cac-mon-an-lam-tu-hai-san-3481165.html">View More</a> </h4>
+                                <ul class="like withi_color">
+                                   <li><a href="#" ><img src="img/like.png" alt="#"/>Like</a></li>
+                                    <li><a href="#" ><img src="img/comm.png" alt="#"/>Comment</a></li>
+                                </ul>
+                             </div>
+                          </div>
+                       </div>
+                       
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <!-- end secend section -->
+
+            <!-- three section -->
+                    <div class="row">
+                        <div class="col-md-6 padding_bottom2">
+                          <div class="our_img kkkk">
+                             <video width="500px"height="400px" controls autoplay>
+                                <source src="/img/production ID_4253721.mp4">
+                             </video>
+                          </div>
+                          <div class="our_text_box three_box">
+                             
+                             
+                             <div class="post_box d_flex padding_top3">
+                                <h3 class="awesome padding_flot">Chef Crystal Jade Kitchen shares his passion for the profession</h3>
+                                <h4 class="flot_left1"><a href="https://vnexpress.net/bep-truong-crystal-jade-kitchen-chia-se-niem-dam-me-voi-nghe-4241796.html">View More</a> </h4>
+                                <ul class="like padding_left2">
+                                   <li><a href="#"><img src="img/like.png"#"/>Like</a></li>
+                                    <li><a href="#"><img src="img/comm.png" alt="#"/>Comment</a></li>
+                                </ul>
+                             </div>
+                             <p>Chef Tran Kim Huy has more than 30 years of experience, emphasizing the word "heart" to prepare delicious dishes to serve diners.</p>
+                          </div>
+                       </div>
+                       <div class="col-md-6">
+                          <div class="our_img">
+                             <figure><img src="img/monngonbiengan5-nutifood-3650-1472428413.jpg" alt="#"/></figure>
+                          </div>
+                          <div class="our_text_box three_box">
+                            
+                             
+                             <div class="post_box d_flex padding_top3">
+                                 <h3 class="awesome padding_flot">Delicious nutritious food for anorexic children</h3>
+                                <h4 class="flot_left1"><a href="https://vnexpress.net/mon-ngon-giau-dinh-duong-cho-tre-bieng-an-3459790.html">View More</a> </h4>
+                                <ul class="like padding_left2">
+                                   <li><a href="#"><img src="img/like.png" alt="#"/>Like</a></li>
+                                    <li><a href="#"><img src="img/comm.png" alt="#"/>Comment</a></li>
+                                </ul>
+                             </div>
+                             <p>Tofu soup with egg tomato, lotus seed oyster porridge, sweet and sour shrimp with sweet and sour sauce is both delicious and nutritious for children who are anorexic. </p>
+                          </div>
+                       </div>
+                    </div>
+                
+    
+   <!-- end three section -->
+  
+            <!-- for section -->
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="our_two_box magna_top90">
+                    <div class="row d_flex">
+                       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                          <div class="our_img">
+                             <figure><img src="img/16-6-201626-4249-1466155950.jpeg" alt="#"/></figure>
+                          </div>
+                       </div>
+                       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                          <div class="our_text_box">
+                             <h3 class="awesome pa_wi">Frugal Japanese food to cool off on a sunny day </h3>
+                             <p>Frugal Japanese food to cool off on a sunny day<br>Unpleasant summer weather not only makes people afraid to go to the kitchen to cook, but also affects the taste buds making eating unappetizing. Therefore, many families find Japanese food stalls to have meals that are both cool and nutritious. </p>
+                             <div class="post_box padding_bottom1">
+                                <h4 class="flot_left1"><a href="https://vnexpress.net/mon-nhat-thanh-dam-giai-nhiet-ngay-nang-3421328.html">View More</a> </h4>
+                                <ul class="like">
+                                   <li><a href="#"><img src="img/like.png" alt="#"/>Like</a></li>
+                                    <li><a href="#"><img src="img/comm.png" alt="#"/>Comment</a></li>
+                                </ul>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+   <!-- end for section -->
+
+
+        </div>
+     </div>
+     <div class="ye2">
+        <table>
+          <tr>
+      <td class="ye5">
+          <hr >
+        <h1>About</h1>
+        <p>Vinegar Food Restaurant which is the flagship brand of JADONS Ltd<br> has spread over its aroma in this industry over the past few decades.
+        </p>
+      </td>
+      <td >
+        <img src="img/logodimai.png"class="ye4">
+        
+      </td>
+      <td>
+        <img src="img/Sorae-Logo-White_1.png"class="ye4">
+      </td>
+      <td id="ye1">
+          <p><span id="id131">Vinegar</span><span id="id232" ><br>Food Restaurant</span></p>
+          <div class="ye3">
+          <a ><i class="fab fa-instagram"></i></a>
+          <a ><i class="fab fa-twitter"></i></a>
+          <a ><i class="fab fa-youtube"></i></a>
+          <a><i class="fab fa-facebook"></i></a>
+          </div>
+      </td>
+          </tr>
+        </table>
+      </div>
 </body>
 </html>
