@@ -1,0 +1,156 @@
+.row {
+    margin-bottom: 100px;
+}
+
+
+
+.article-meta{
+    display: flex;
+    text-align: center;
+}
+.nbv {
+   
+    height: 500px;
+    width: 400px;
+    display: block;
+    margin-top: 40px;
+}
+.dfg{
+    margin-right: 50px;
+}
+.page-content{
+    padding-right: 200px;
+    background-color: white transparent;
+    z-index: 1;
+   
+      }
+.qwe{
+    height: 500px;
+    width: 400px;
+    
+    margin-right: 100px;
+    
+}
+.page-contentt{
+    padding-left: 0px;
+    margin-right: 300px;
+    
+    
+    
+}
+
+.pt-600{
+    margin-left: 300px;
+}
+.cvb{
+color: #EFA52C;
+font-family: Lucida Handwriting;
+bottom: 400px;
+left: 600px;
+margin-top: -130px;
+font-size: 70px;
+position: absolute;
+animation-name: hihi;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+position: relative;
+}
+@keyframes hihi {
+  from {top: 0px;}
+  to {top: 230px; }
+}
+.gds{
+    margin-top: -100px;
+}
+.htr{
+    font-family: 'Suranna', serif;
+    font-size: 70px;
+    position: absolute;
+    color: aliceblue;
+    bottom: 300px;
+   left: 510px;
+   animation-name: hihi;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+position: relative;
+}
+.c456{
+    font-family: 'Suranna', serif;
+    text-align: center;
+}
+.rtee{
+    color: #EFA52C;
+    font-family: 'Montez', cursive;
+    text-align: center;
+    padding-left: 150px;
+}
+.rte{
+    color: #EFA52C;
+    font-family: Lucida Handwriting;
+    text-align: center;
+    padding-left: 100px;
+}
+.rted{
+    color: #EFA52C;
+    font-family: Lucida Handwriting;
+    text-align: center;
+    padding-left: 150px;
+}
+.ddddd{
+    width: 700px;
+    height: 100px;
+}
+
+.more-details{
+    margin-left: 150px;
+    border:1px;
+    color: white;
+    padding: 10px;
+    border-radius : 5px;
+    background-color: rgb(234, 73, 44);
+}
+.dddddd{
+    
+    width: 650px;
+}
+.sad{
+    font-family: Lucida Handwriting;
+    font-size: 70px;
+    position: absolute;
+    color: aliceblue;
+    text-align: center;
+    padding-left: 43%;
+    padding-top:200px
+ 
+    
+}
+.vbnn{
+    background-image: url(/img/bkg-img18.jpg);
+   width: 1920px;
+   height: 704px;
+    background-repeat: no-repeat;
+   
+}
+.sad{
+    font-family:  Lucida Handwriting;
+    font-size: 70px;
+    position: absolute;
+    color: aliceblue;
+    text-align: center;
+    padding-left: 10%;
+    padding-top:250px
+ 
+    
+}
+.sadd{
+ font-family:  'Suranna', serif ;
+ color: #EFA52C;
+
+ 
+}
+#ghy{
+    border-style: solid;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(42, 41, 41);
+}

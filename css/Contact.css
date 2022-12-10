@@ -209,15 +209,18 @@ body, button, input {
 
 .app-form-group {
   margin-bottom: 15px;
+  display: block;
 }
 
 .app-form-group.message {
   margin-top: 40px;
+  
 }
 
 .app-form-group.buttons {
   margin-bottom: 0;
   text-align: right;
+  display: flex;
 }
 
 .app-form-control {
@@ -243,11 +246,14 @@ body, button, input {
 
 .app-form-button {
   background: none;
-  border: none;
+  border-style: solid;
   color: white;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
 .app-form-button:hover {
@@ -289,11 +295,11 @@ body, button, input {
   }
 
   .app-title {
-    flex-direction: row;
+    margin-right: 100px;
   }
 
   .app-title span {
-    margin-right: 12px;
+    margin-right: 100px;
   }
 
   .app-title:after {
