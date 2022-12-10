@@ -164,3 +164,27 @@
 .wer{
   color: black;
 }
+.vgh{
+  display: flex;
+  margin-left: 450px;
+  margin-bottom: 80px;
+
+}
+.lku{
+  margin-left: 100px;
+  padding: 20px;
+  border: 1px;
+  border-radius: 20px;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+
+}
+#htt{
+  text-align: center;
+}
+.kll{
+  margin-bottom: 30px;
+  text-align: center;
+  margin-right: 90px;
+}
