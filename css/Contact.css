@@ -74,16 +74,12 @@ body {
 }
 
 .background {
-<<<<<<< HEAD
   background-image: url(/img/nhahang1.webp) ;
   font-size: 12px;
 
   margin-bottom: -42px;
->>>>>>> 95673683b109781222941f8404ba4482d1b15686
-=======
   font-size: 12px;
   margin-bottom: -42px;
->>>>>>> 66145dfe43ffe2671fcd8338753b911849e18868
 }
 
 body, button, input {
@@ -257,7 +253,7 @@ body, button, input {
 }
 
 .app-form-button:hover {
-  color: #EFA52C;
+  background-color: #EFA52C;
 }
 
 .credits {
