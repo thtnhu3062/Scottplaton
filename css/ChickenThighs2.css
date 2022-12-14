@@ -169,7 +169,9 @@ footer a {
 footer a:hover {
     color: #ff3f40;
 }
-
+.footer-section{
+  background-color: black;
+}
 
 
 #id11 {
