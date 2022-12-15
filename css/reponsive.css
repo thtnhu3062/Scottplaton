@@ -1,0 +1,25 @@
+@media screen and (max-width:600px) {
+    .qaw{overflow-x:auto;}
+    .ers{overflow-x:auto;}
+}
+@media screen and (max-width:600px ) {
+    .our_two_box{ width: 100%;;display: inline;}
+    .our_two_boxx{ width: 100%;display: inline;}
+    .asee{ float: left;}
+    
+}
+@media screen and (max-width:600px){
+    .card9{ width: 100%;margin-bottom: 20%;}
+    .ewqa{ display: inline;width: 20%;}
+    .product-details{width: 40%;}
+    .product-img{width: 10%;}
+    
+}
+@media screen and (max-width:600px) {
+    .dfr{ float: left;}
+    .gds{
+        width:100% ;margin-top:-42%;
+    }
+    .vbnn{ padding-bottom: 20%;}
+    
+}
