@@ -439,6 +439,10 @@ label {
     
     
 }
+.footer-section{
+  background-color: black;
+}
+
 *::before, *::after {
     box-sizing: border-box;
 }
@@ -459,17 +463,20 @@ label {
 .ff1{
 display: flex;
 }
-@media screen and (max-width: 600px ){
-  .photo-container{ width: 50%;}
-  .product{ display: inline;}
-  .photo-main{ width: 50%;}
+@media only screen and (max-width: 600px) {
+  .vbn1{
+    display: inline;
+  }
+ 
+ .title{ width: 70%; float: right ; font-size: 20px;}
+.product__photo{ margin-left: -90%;}
 
-  .product__info{ width: 38%;}
-  .buy--btn{ width: 100%;}
+.product-container{
+  margin-left: -40%;
 }
-@media screen and ( max-width: 1200px) {
-  .photo-container{ width: 40%;}
-  .product{ display: inline;}
-  .photo-main{ width: 50%;}
-  .product__info{ width: 25%;}
+.ert{
+  width: 70%;float: right;
+}
+.price{ float: right; font-size: 14px;}
+.ewr{ float: right;font-size: 17px; width: 20%;margin-top: 40%;}
 }
