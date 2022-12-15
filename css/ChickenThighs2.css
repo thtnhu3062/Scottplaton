@@ -170,7 +170,7 @@ footer a:hover {
     color: #ff3f40;
 }
 .footer-section{
-  background-color: black;
+  background-color: b;
 }
 
 
@@ -458,4 +458,18 @@ label {
 
 .ff1{
 display: flex;
+}
+@media screen and (max-width: 600px ){
+  .photo-container{ width: 50%;}
+  .product{ display: inline;}
+  .photo-main{ width: 50%;}
+
+  .product__info{ width: 38%;}
+  .buy--btn{ width: 100%;}
+}
+@media screen and ( max-width: 1200px) {
+  .photo-container{ width: 40%;}
+  .product{ display: inline;}
+  .photo-main{ width: 50%;}
+  .product__info{ width: 25%;}
 }
