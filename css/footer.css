@@ -17,7 +17,7 @@ ul {
   margin-top: 8px;
 }
 .cta-text {
-  padding-left: 15px;
+  padding-right: 100px;
   display: inline-block;
 }
 .cta-text h4 {
@@ -29,6 +29,9 @@ ul {
 .cta-text span {
   color: #757575;
   font-size: 15px;
+}
+.try{
+  font-size: 10px;
 }
 .footer-content {
   position: relative;
@@ -137,14 +140,17 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #202020;
-  padding: 25px 0;
+  background: black;
+  padding: 10px 0;
 }
 .copyright-text p {
-  margin: 0;
+ 
   font-size: 14px;
   color: #878787;
+  min-width: 500px;
+  
 }
+
 .copyright-text p a{
   color: #ff5e14;
 }
