@@ -209,7 +209,16 @@
                         </div>
                         <div class="subscribe-form">
                             <form action="#">
-                                <input type="text" placeholder="Email Address">
+                                <input id="email-input" type="number" min="5" maxpl="15" aceholder="Email Address">
+                                <style>
+#email-input:invalid {
+  background: red;
+}
+
+#email-input:valid {
+  background: green;
+}
+                                </style>
                                 <button><i class="fab fa-telegram-plane"></i></button>
                             </form>
                         </div>

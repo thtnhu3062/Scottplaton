@@ -115,7 +115,7 @@
                     <li class="ewr">Buttery shortbread and sticky-sweet caramel collide in one irresistible thumprint cookie.</li>
                 </ul>
             </div>
-            <button class="buy--btn">BUY NOW</button>
+            <button onClick="myFunction()" class="buy--btn">BUY NOW</button>
         </div>
     </section>
     <div>
@@ -136,5 +136,42 @@
         </div>
     </footer>
 
+<div id="confirm-modal">
+  <h1>✅ Da add</h1>
+</div>
+
+<style>
+  #confirm-modal {
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 300px;
+    left: 100px;
+    background: white;
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  @media only screen and (max-width: 500px) {
+    #confirm-modal {
+      background-color: red;
+      
+    }
+  }
+</style>
+
+<script src="../js1/test.js"></script> <!-- ../js1/test.js la "path" -->
 </body>
 </html>
+
+
+> html
+  > Salted.html 
+
+> js1 
+  > test.js
